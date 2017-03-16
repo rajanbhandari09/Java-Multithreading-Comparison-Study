@@ -10,6 +10,10 @@ The project utilized static analysis techniques for metrics collection from open
 
 Used bash scripts to parse open source projects from GitHub and extracted Lines of Java code, multithreading constructs to generate consolidated metrics report.
 
+**Instruction for using bash scripts**
+
+Bash scripts need to be executed in the root directory of the project to be analyzed.  Paths need to be changed for metrics file (multithreadingconstructs.txt) and output files (output.xls & extendedoutput.xls) as per the desired folder structures.
+
 **2. [Threadsafe](https://marketplace.eclipse.org/content/threadsafe)**
 
 Used open source tool Threadsafe to statically analzye projects and report issues like data races, atomicity violation and incorrect use of java.util.concurrent.
