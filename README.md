@@ -1,7 +1,7 @@
 # Java-Multithreading-Comparison-Study
 
 ## Introduction
-This was a comparison study to find out the trends in usage of  Java primitive multithreading constructs versus java.util.concurrent constructs in recent projects. The study finds out if the usage of java.util.concurrent constructs has increased over java primitive constructs in achieving different goals like lock free programming, lock based programming and concurrent data structures.
+A comparison study to find out the trends in usage of  Java primitive multithreading constructs versus java.util.concurrent constructs in recent projects. The study finds out if the usage of java.util.concurrent constructs has increased over java primitive constructs in achieving different goals like lock free programming, lock based programming and concurrent data structures.
 
 ## Approach
 The project utilized static analysis techniques for metrics collection from open source projects hosted on GitHub and also used different open source static analysis tools for detecting potential data race conditions.
