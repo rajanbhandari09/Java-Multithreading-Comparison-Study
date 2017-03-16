@@ -6,11 +6,11 @@ This was a comparison study to find out the trends in usage of  Java primitive m
 ## Approach
 The project utilized static analysis techniques for metrics collection from open source projects hosted on GitHub and also used different open source static analysis tools for detecting potential data race conditions.
 
-1. Bash Scripts (/Bash Scripts)
+**1. [Bash Scripts](/Bash Scripts)
 
 Used bash scripts to parse open source projects from GitHub and extracted Lines of Java code, multithreading constructs to generate consolidated metrics report.
 
-2. Threadsafe (https://marketplace.eclipse.org/content/threadsafe)
+**2. Threadsafe (https://marketplace.eclipse.org/content/threadsafe)
 
 Used open source tool Threadsafe to statically analzye projects and report issues like data races, atomicity violation and incorrect use of java.util.concurrent.
 
