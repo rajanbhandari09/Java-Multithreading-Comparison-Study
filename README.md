@@ -20,6 +20,12 @@ Used FindBugs eclipse plugin to detect incorrect usage of java.util.concurrent a
 
 ## [Results](/Results)
 
+1. synchronized method was the preferred choice over synchronized blocks and RentrantLock for lock based programming.
+2. volatile was used more over java.util.concurrent Atomic classes (AtomicBoolean, AtomicInteger, AtomicLong).
+3. implements Runnable was still the preferred method of thread creation over ExecutorService.
+4. synchronizedMap() were stil popular choice over ConncurrentHashMap.
+
+
 
 
 
