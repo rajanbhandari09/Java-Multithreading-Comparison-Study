@@ -1,0 +1,1 @@
+find . -name '*.java' -print0 | xargs -0 wc -l | awk '/^[[:space:]]*[[:digit:]]+[[:space:]]+total$/{next} {total+=$1;print} END {print "\n Total LOC:",total,"lines"}'
