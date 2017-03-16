@@ -14,8 +14,8 @@ Used bash scripts to parse open source projects from GitHub and extracted Lines 
 
 Used open source tool Threadsafe to statically analzye projects and report issues like data races, atomicity violation and incorrect use of java.util.concurrent.
 
-## Results
-/Results
+## [Results](/Results)
+
 
 
 
