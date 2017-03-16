@@ -6,7 +6,7 @@ This was a comparison study to find out the trends in usage of  Java primitive m
 ## Approach
 The project utilized static analysis techniques for metrics collection from open source projects hosted on GitHub and also used different open source static analysis tools for detecting potential data race conditions.
 
-**1. [Bash Scripts](https://github.com/rajanbhandari09/Java-Multithreading-Comparison-Study.git/Bash%Scripts)**
+**1. [Bash Scripts](/Bash%20Scripts)**
 
 Used bash scripts to parse open source projects from GitHub and extracted Lines of Java code, multithreading constructs to generate consolidated metrics report.
 
